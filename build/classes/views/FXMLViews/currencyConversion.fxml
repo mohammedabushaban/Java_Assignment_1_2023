@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="377.0" prefWidth="518.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CurrencyConversionController">
+   <children>
+      <Label id="username" fx:id="btn" layoutX="14.0" layoutY="36.0" prefHeight="25.0" prefWidth="217.0" styleClass="stackPane" text="Currency Conversion System">
+         <stylesheets>
+            <URL value="@../../css/style.css" />
+            <URL value="@../../css/admin.css" />
+         </stylesheets></Label>
+      <Button fx:id="logout" layoutX="374.0" layoutY="36.0" mnemonicParsing="false" onAction="#logOut" prefHeight="25.0" prefWidth="131.0" styleClass="deleteBtn" text="Log Out">
+         <stylesheets>
+            <URL value="@../../css/style.css" />
+            <URL value="@../../css/admin.css" />
+         </stylesheets></Button>
+      <TextField id="username" fx:id="nis" layoutX="309.0" layoutY="186.0" prefHeight="29.0" prefWidth="108.0" promptText="NIS" styleClass="textField">
+         <stylesheets>
+            <URL value="@../../css/style.css" />
+            <URL value="@../../css/admin.css" />
+         </stylesheets></TextField>
+      <TextField id="username" fx:id="usd" layoutX="105.0" layoutY="186.0" prefHeight="29.0" prefWidth="108.0" promptText="USD" styleClass="textField" text="232">
+         <stylesheets>
+            <URL value="@../../css/style.css" />
+            <URL value="@../../css/admin.css" />
+         </stylesheets></TextField>
+      <Label id="username" layoutX="247.0" layoutY="188.0" prefHeight="25.0" prefWidth="24.0" stylesheets="@../../css/style.css" text="TO" />
+      <Label id="username" layoutX="141.0" layoutY="143.0" prefHeight="25.0" prefWidth="36.0" text="USD">
+         <stylesheets>
+            <URL value="@../../css/style.css" />
+            <URL value="@../../css/admin.css" />
+         </stylesheets></Label>
+      <Label id="username" layoutX="345.0" layoutY="143.0" prefHeight="25.0" prefWidth="36.0" stylesheets="@../../css/style.css" text="NIS" />
+      <Button fx:id="convertBtn" layoutX="208.0" layoutY="282.0" mnemonicParsing="false" onAction="#convert" prefHeight="47.0" prefWidth="102.0" styleClass="showAllBtn" text="Convert">
+         <stylesheets>
+            <URL value="@../../css/style.css" />
+            <URL value="@../../css/admin.css" />
+         </stylesheets>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
